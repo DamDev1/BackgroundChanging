@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+    background: gainsboro;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    padding: 1em;
+    background: white;
+    color: white;
+    box-shadow: 2px 2px 2px 2px rgba(128, 128, 128, 0.274);
+}
+
+header h1{
+    color: blueviolet;
+}
+
+nav ul{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+nav ul li{
+    padding: 10px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+main{
+    width: 100%;
+}
+
+.text{
+    width: 100%;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+
+h2{
+    width: 320px;
+    background: black;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.buttonContainer{
+    width: 100%;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.btn{
+    padding: 10px 15px 10px 15px;
+    background: transparent;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    color: white;
+    background: black;
+    transition: 2s;
+}
